@@ -1,5 +1,5 @@
 ---
-layout: $/layouts/post.astro
+layout: ../../layouts/BlogPost.astro
 title: Test
 description: Mangal Pandey
 author: Mangal Pandey
