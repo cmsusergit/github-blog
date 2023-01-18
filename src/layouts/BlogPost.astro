@@ -10,12 +10,12 @@ const {title, description, publishDate, author, heroImage, permalink, alt} = con
 <html lang={ content.lang || 'en' }>
   <head>
     <BaseHead title={title} description={description} permalink={permalink} />
-    <link rel="stylesheet" href={Astro.resolve('../styles/blog.css')} />
+
   </head>
 
   <body>
     <BlogHeader />
-    <div class="wrapper">
+    <div class="wrapper bg-blue-200">----
       <BlogPost title={title} author={author} heroImage={heroImage} publishDate={publishDate} alt={alt}>
         <slot />
       </BlogPost>
